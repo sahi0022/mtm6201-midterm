@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#top {
+    height: 550px;
+    width: 100%;
+    background-image: url(images/photo-1522881193457-37ae97c905bf.avif);
+    background-position: center;
+    background-size: cover;
+    /* border: 2px solid black; */
+}
+
+#main {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 550px;
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header img {
+    height: 60px;
+    margin: 10px 0px 0px 30px;
+    width: 90px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#search {
+    height: 25px;
+    margin-right: 5px;
+}
+
+#header button {
+    height: 28px;
+    margin-right: 10px;
+    width: 80px;
+    transition: 0.5s;
+    background-color: rgb(15, 45, 150);
+    color: white;
+}
+
+#header button:hover {
+    background-color: rgb(0, 4, 3);
+}
+
+#nav {
+    display: block;
+    margin: 0px auto;
+}
+
+#nav ul li {
+    text-align: center;
+    display: inline-block;
+}
+
+#nav ul li a {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 90px;
+    transition: 0.8s;
+    margin: 50px;
+    font-size: 20px;
+}
+
+#nav ul li a:hover {
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+#content {
+    color: white;
+    width: 33%;
+    margin: 60px 0px 0px 50px;
+}
+
+#content h1 {
+    margin: 20px 0px 20px 0px;
+}
+
+#content p {
+    margin: 20px 0px 20px 0px;
+}
+
+#content button {
+    height: 50px;
+    width: 160px;
+    box-shadow: 2px 5px 2px green;
+}
+
+#content button:hover {
+    color: white;
+    background-color: black;
+    transition: transform 2s;
+    transform: scale(1.1);
+}
+
+#info {
+
+    height: 390px;
+    margin: 50px 180px;
+    font-size: 15px;
+    color: grey;
+    word-spacing: 0.3em;
+    line-height: 1.8em;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#hh2 {
+    margin: 20px 300px;
+}
+
+.offers {
+   
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    margin: 20px;
+    width: 90%;
+    height: 505px;
+}
+
+.divs {
+    box-shadow: 5px 5px 8px grey;
+    margin: 0px 20px 0px 100px;
+    height: 500px;
+    width: 300px;
+}
+
+.divs:hover{
+background-color: rgb(233, 234, 244);
+}
+
+.divs h2 {
+    margin: 10px 30px 10px 80px;
+}
+
+.divs h3 {
+    margin: 10px 10px 20px 40px;
+}
+
+.divs ul li {
+    margin: 15px;
+}
+
+.divs button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(24, 24, 195);
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+.divs button:hover {
+    background-color: black;
+    transform: translateY(5px);
+    transition: transform 1s;
+}
+/* used skip links to move up and down on page */
+.skip{
+    text-decoration: none;
+    border-radius: 5px;
+    width: 150px;
+    background-color: rgb(255, 250, 92);
+    color: white;
+ }
+
+ 
